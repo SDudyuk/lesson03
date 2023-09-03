@@ -1,7 +1,7 @@
 try {
   const inputValue = prompt('Введіть число:');
   const parsedValue = Number(inputValue);
-  let word ;
+  let word = '';
 
   if (Number.isNaN(parsedValue)) {
     throw 'Введено некоректне число!';
